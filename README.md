@@ -10,19 +10,34 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 	3. Print the norm of the matrix in two decimal places.
 ## Program:
 ```Python
-# Register No:
-# Developed By:
+# Register No: 25008769
+# Developed By: JAIHARI S
 # 1-Norm of a Matrix
+import numpy as np
+mat=np.array (eval(input()))
+ans=np.linalg.norm(mat,1)
+a="{:.2f}".format(ans)
+print(a)
 
 
 
 
 # 2-Norm of a Matrix
+import numpy as np
+m=np.array(eval(input()))
+a=np.linalg.norm(m,2)
+n=f"{a:.2f}"
+print(n)
 
 
 
 
 # Infinity Norm of a Matrix
+import numpy as np
+m=np.array(eval(input()))
+a=np.linalg.norm(m,np.inf)
+n=f"{a:.2f}"
+print(n)
 
 
 
@@ -34,16 +49,19 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 <br>
 <br>
 <br>
+<img width="1352" height="375" alt="image" src="https://github.com/user-attachments/assets/a57b36dc-1f2f-4f9d-af4f-8be0cd7de754" />
 
 ### 2-Norm of a Matrix
 <br>
 <br>
 <br>
+<img width="863" height="324" alt="image" src="https://github.com/user-attachments/assets/069fe127-0be0-4b78-b7f9-ffa6f3133bbf" />
 
 ### Infinity Norm of a Matrix
 <br>
 <br>
 <br>
+<img width="775" height="260" alt="image" src="https://github.com/user-attachments/assets/b896101d-eb1d-446a-b4b8-aeee17f844f9" />
 
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
